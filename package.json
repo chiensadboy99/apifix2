@@ -1,0 +1,24 @@
+{
+  "name": "nt-sunwin-ai",
+  "version": "9.0.0",
+  "description": "NT Sunwin AI - Hệ thống dự đoán tài xỉu với 100+ mẫu cầu và học máy nâng cao",
+  "main": "sunwin.js",
+  "type": "module",
+  "scripts": {
+    "start": "node sunwin.js",
+    "dev": "node --watch sunwin.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "fastify": "^5.2.1",
+    "ws": "^8.18.1"
+  },
+  "keywords": [
+    "sunwin",
+    "tai-xiu",
+    "ai-prediction",
+    "pattern-recognition"
+  ],
+  "author": "NT Sunwin AI",
+  "license": "MIT"
+}
